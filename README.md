@@ -1,4 +1,6 @@
-# NgGrpcWeb
+# grpcweb-demo-ng7
+
+> 一个整合了 angular 7 和  grpc-web 的小例子
 
 添加依赖包
 
