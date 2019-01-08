@@ -4,6 +4,9 @@
 
 export const environment = {
   production: false
+
+  // GRPC 服务地址和端口
+  , grpcServerAddr: 'http://localhost:1100'
 };
 
 /*
