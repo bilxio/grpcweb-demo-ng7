@@ -1,0 +1,13 @@
+<h3>GRPC-WEB Angular7 Demo</h3>
+<p>
+  <strong>response -> </strong>
+  {{responseMessage | async}}
+</p>
+
+<p>
+  <strong>request -> </strong>
+  <input type="text" [(ngModel)]="message">
+</p>
+<button (click)="sendReq()">send</button>
+
+<router-outlet></router-outlet>

@@ -1,0 +1,30 @@
+{
+  "compileOnSave": false,
+  "compilerOptions": {
+    "baseUrl": "./",
+    "outDir": "./dist/out-tsc",
+    "sourceMap": true,
+    "declaration": false,
+    "module": "es2015",
+    "moduleResolution": "node",
+    "emitDecoratorMetadata": true,
+    "experimentalDecorators": true,
+    "importHelpers": true,
+    "target": "es5",
+    "typeRoots": [
+      "node_modules/@types"
+    ],
+    "lib": [
+      "es2018",
+      "dom"
+    ],
+    "paths": {
+      "@libs/*": [ "./src/libs/*" ]
+    }
+  },
+  "include": [ "./src/**/*" ],
+  "files": [
+    "src/libs/grpcweb/echo_pb.d.ts",
+    "src/libs/grpcweb/echo_pb_service.d.ts"
+  ]
+}
